@@ -72,7 +72,7 @@ contract NonfungiblePositionManager is
         address _factory,
         address _WRBTC,
         address _tokenDescriptor_
-    ) ERC721Permit('Intrinsic Positions NFT-V1', 'UNI-V3-POS', '1') PeripheryImmutableState(_factory, _WRBTC) {
+    ) ERC721Permit('Intrinsic Positions NFT-V1', 'INT-V3-POS', '1') PeripheryImmutableState(_factory, _WRBTC) {
         _tokenDescriptor = _tokenDescriptor_;
     }
 
