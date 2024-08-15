@@ -1,4 +1,4 @@
-import { bytecode } from '@intrinsic-network/core/artifacts/contracts/IntrinsicPool.sol/IntrinsicPool.json'
+import { bytecode } from '@intrinsic-finance/core/artifacts/contracts/IntrinsicPool.sol/IntrinsicPool.json'
 import { utils } from 'ethers'
 
 export const POOL_BYTECODE_HASH = utils.keccak256(bytecode)

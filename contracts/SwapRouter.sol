@@ -2,9 +2,9 @@
 pragma solidity =0.7.6;
 pragma abicoder v2;
 
-import '@intrinsic-network/core/contracts/libraries/SafeCast.sol';
-import '@intrinsic-network/core/contracts/libraries/TickMath.sol';
-import '@intrinsic-network/core/contracts/interfaces/IIntrinsicPool.sol';
+import '@intrinsic-finance/core/contracts/libraries/SafeCast.sol';
+import '@intrinsic-finance/core/contracts/libraries/TickMath.sol';
+import '@intrinsic-finance/core/contracts/interfaces/IIntrinsicPool.sol';
 
 import './interfaces/ISwapRouter.sol';
 import './base/PeripheryImmutableState.sol';

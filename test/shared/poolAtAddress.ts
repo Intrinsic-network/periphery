@@ -1,4 +1,4 @@
-import { abi as POOL_ABI } from '@intrinsic-network/core/artifacts/contracts/IntrinsicPool.sol/IntrinsicPool.json'
+import { abi as POOL_ABI } from '@intrinsic-finance/core/artifacts/contracts/IntrinsicPool.sol/IntrinsicPool.json'
 import { Contract, Wallet } from 'ethers'
 import { IIntrinsicPool } from '../../typechain'
 

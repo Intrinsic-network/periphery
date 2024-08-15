@@ -2,7 +2,7 @@
 pragma solidity >=0.7.5;
 pragma abicoder v2;
 
-import '@intrinsic-network/core/contracts/interfaces/callback/IIntrinsicSwapCallback.sol';
+import '@intrinsic-finance/core/contracts/interfaces/callback/IIntrinsicSwapCallback.sol';
 
 /// @title Router token swapping functionality
 /// @notice Functions for swapping tokens via Intrinsic

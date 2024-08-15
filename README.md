@@ -12,16 +12,16 @@ per the terms defined [here](./bug-bounty.md).
 ## Local deployment
 
 In order to deploy this code to a local testnet, you should install the npm package
-`@intrinsic-network/periphery`
+`@intrinsic-finance/periphery`
 and import bytecode imported from artifacts located at
-`@intrinsic-network/periphery/artifacts/contracts/*/*.json`.
+`@intrinsic-finance/periphery/artifacts/contracts/*/*.json`.
 For example:
 
 ```typescript
 import {
   abi as SWAP_ROUTER_ABI,
   bytecode as SWAP_ROUTER_BYTECODE,
-} from '@intrinsic-network/periphery/artifacts/contracts/SwapRouter.sol/SwapRouter.json'
+} from '@intrinsic-finance/periphery/artifacts/contracts/SwapRouter.sol/SwapRouter.json'
 
 // deploy the bytecode
 ```
@@ -33,10 +33,10 @@ your local deployment.
 ## Using solidity interfaces
 
 The Intrinsic periphery interfaces are available for import into solidity smart contracts
-via the npm artifact `@intrinsic-network/periphery`, e.g.:
+via the npm artifact `@intrinsic-finance/periphery`, e.g.:
 
 ```solidity
-import '@intrinsic-network/periphery/contracts/interfaces/ISwapRouter.sol';
+import '@intrinsic-finance/periphery/contracts/interfaces/ISwapRouter.sol';
 
 contract MyContract {
   ISwapRouter router;

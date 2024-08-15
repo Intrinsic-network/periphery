@@ -23,7 +23,7 @@ import { getMaxTick, getMinTick } from './shared/ticks'
 import { expandTo18Decimals } from './shared/expandTo18Decimals'
 import { sortedTokens } from './shared/tokenSort'
 
-import { abi as IIntrinsicPoolABI } from '@intrinsic-network/core/artifacts/contracts/interfaces/IIntrinsicPool.sol/IIntrinsicPool.json'
+import { abi as IIntrinsicPoolABI } from '@intrinsic-finance/core/artifacts/contracts/interfaces/IIntrinsicPool.sol/IIntrinsicPool.json'
 
 describe('NonfungiblePositionManager', () => {
   const wallets = waffle.provider.getWallets()

@@ -2,9 +2,9 @@
 pragma solidity =0.7.6;
 pragma abicoder v2;
 
-import '@intrinsic-network/core/contracts/interfaces/IIntrinsicPool.sol';
-import '@intrinsic-network/core/contracts/libraries/FixedPoint128.sol';
-import '@intrinsic-network/core/contracts/libraries/FullMath.sol';
+import '@intrinsic-finance/core/contracts/interfaces/IIntrinsicPool.sol';
+import '@intrinsic-finance/core/contracts/libraries/FixedPoint128.sol';
+import '@intrinsic-finance/core/contracts/libraries/FullMath.sol';
 
 import './interfaces/INonfungiblePositionManager.sol';
 import './interfaces/INonfungibleTokenPositionDescriptor.sol';

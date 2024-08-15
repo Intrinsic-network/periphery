@@ -2,10 +2,10 @@
 pragma solidity >=0.7.0;
 pragma abicoder v2;
 
-import '@intrinsic-network/core/contracts/interfaces/IIntrinsicPool.sol';
-import '@intrinsic-network/core/contracts/libraries/TickMath.sol';
-import '@intrinsic-network/core/contracts/libraries/BitMath.sol';
-import '@intrinsic-network/core/contracts/libraries/FullMath.sol';
+import '@intrinsic-finance/core/contracts/interfaces/IIntrinsicPool.sol';
+import '@intrinsic-finance/core/contracts/libraries/TickMath.sol';
+import '@intrinsic-finance/core/contracts/libraries/BitMath.sol';
+import '@intrinsic-finance/core/contracts/libraries/FullMath.sol';
 import '@openzeppelin/contracts/utils/Strings.sol';
 import '@openzeppelin/contracts/math/SafeMath.sol';
 import '@openzeppelin/contracts/math/SignedSafeMath.sol';

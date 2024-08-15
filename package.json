@@ -1,5 +1,5 @@
 {
-  "name": "@intrinsic-network/periphery",
+  "name": "@intrinsic-finance/periphery",
   "description": "Peripheral smart contracts for interacting with Intrinsic",
   "license": "GPL-2.0-or-later",
   "publishConfig": {
@@ -30,7 +30,7 @@
     "@openzeppelin/contracts": "3.4.1-solc-0.7-2",
     "@uniswap/lib": "^4.0.1-alpha",
     "@uniswap/v2-core": "1.0.1",
-    "@intrinsic-network/core": "1.0.0",
+    "@intrinsic-finance/core": "1.0.0",
     "base64-sol": "1.0.1"
   },
   "devDependencies": {

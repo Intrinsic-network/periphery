@@ -2,9 +2,9 @@
 pragma solidity =0.7.6;
 pragma abicoder v2;
 
-import '@intrinsic-network/core/contracts/interfaces/IIntrinsicFactory.sol';
-import '@intrinsic-network/core/contracts/interfaces/callback/IIntrinsicMintCallback.sol';
-import '@intrinsic-network/core/contracts/libraries/TickMath.sol';
+import '@intrinsic-finance/core/contracts/interfaces/IIntrinsicFactory.sol';
+import '@intrinsic-finance/core/contracts/interfaces/callback/IIntrinsicMintCallback.sol';
+import '@intrinsic-finance/core/contracts/libraries/TickMath.sol';
 
 import '../libraries/PoolAddress.sol';
 import '../libraries/CallbackValidation.sol';

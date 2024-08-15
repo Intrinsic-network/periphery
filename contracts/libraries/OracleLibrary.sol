@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 pragma solidity >=0.5.0 <0.8.0;
 
-import '@intrinsic-network/core/contracts/libraries/FullMath.sol';
-import '@intrinsic-network/core/contracts/libraries/TickMath.sol';
-import '@intrinsic-network/core/contracts/interfaces/IIntrinsicPool.sol';
+import '@intrinsic-finance/core/contracts/libraries/FullMath.sol';
+import '@intrinsic-finance/core/contracts/libraries/TickMath.sol';
+import '@intrinsic-finance/core/contracts/interfaces/IIntrinsicPool.sol';
 
 /// @title Oracle library
 /// @notice Provides functions to integrate with V3 pool oracle
