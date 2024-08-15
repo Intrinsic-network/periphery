@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity =0.7.6;
 
-import '@intrinsic-network/core/contracts/interfaces/callback/IIntrinsicSwapCallback.sol';
-import '@intrinsic-network/core/contracts/libraries/SafeCast.sol';
-import '@intrinsic-network/core/contracts/interfaces/IIntrinsicPool.sol';
+import '@intrinsic-finance/core/contracts/interfaces/callback/IIntrinsicSwapCallback.sol';
+import '@intrinsic-finance/core/contracts/libraries/SafeCast.sol';
+import '@intrinsic-finance/core/contracts/interfaces/IIntrinsicPool.sol';
 import '@openzeppelin/contracts/token/ERC20/IERC20.sol';
 
 contract TestIntrinsicCallee is IIntrinsicSwapCallback {

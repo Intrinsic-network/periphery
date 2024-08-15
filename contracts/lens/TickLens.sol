@@ -2,7 +2,7 @@
 pragma solidity >=0.5.0;
 pragma abicoder v2;
 
-import '@intrinsic-network/core/contracts/interfaces/IIntrinsicPool.sol';
+import '@intrinsic-finance/core/contracts/interfaces/IIntrinsicPool.sol';
 
 import '../interfaces/ITickLens.sol';
 

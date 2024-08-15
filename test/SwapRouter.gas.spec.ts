@@ -11,7 +11,7 @@ import { encodePath } from './shared/path'
 import snapshotGasCost from './shared/snapshotGasCost'
 import { getMaxTick, getMinTick } from './shared/ticks'
 
-import { abi as IIntrinsicPoolABI } from '@intrinsic-network/core/artifacts/contracts/interfaces/IIntrinsicPool.sol/IIntrinsicPool.json'
+import { abi as IIntrinsicPoolABI } from '@intrinsic-finance/core/artifacts/contracts/interfaces/IIntrinsicPool.sol/IIntrinsicPool.json'
 
 describe('SwapRouter gas tests', () => {
   const wallets = waffle.provider.getWallets()
